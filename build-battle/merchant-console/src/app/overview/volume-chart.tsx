@@ -13,7 +13,7 @@ export function VolumeChart({
       data={data}
       index="date"
       categories={["Captured", "Refunded"]}
-      colors={["blue", "gray"]}
+      colors={["emerald", "red"]}
       valueFormatter={(value: number) =>
         `$${value.toLocaleString("en-US", { maximumFractionDigits: 0 })}`
       }

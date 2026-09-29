@@ -22,7 +22,7 @@ export default function OverviewPage() {
     .slice(0, 8)
 
   return (
-    <div className="border-t border-gray-200 p-4 sm:p-6 dark:border-gray-800">
+    <div className="border-t border-gray-200 bg-[#2e7d4f]/15 p-4 sm:p-6 dark:border-gray-800 dark:bg-[#2e7d4f]/35">
       <dl className="grid grid-cols-1 gap-6 sm:grid-cols-3">
         <Stat
           label="Gross volume"
